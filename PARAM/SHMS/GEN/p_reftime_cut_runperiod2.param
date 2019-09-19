@@ -30,13 +30,13 @@
 ;paero_adcrefcut=-5000.
 ;pcal_adcrefcut=-5000.
 
-;VCS Ref Time Cuts (COIN 8835 & 8822)
-pdc_tdcrefcut=-15200.
-phodo_tdcrefcut=-4300.
+;VCS Ref Time Cuts (COIN 9187 & 9405)
+pdc_tdcrefcut=-15300.
+phodo_tdcrefcut=-4360.
 
-phodo_adcrefcut=-5400.
-pngcer_adcrefcut=-5400.
-phgcer_adcrefcut=-5400.
-paero_adcrefcut=-5400.
-pcal_adcrefcut=-5400.
+phodo_adcrefcut=-5600.
+pngcer_adcrefcut=-5600.
+phgcer_adcrefcut=-5600.
+paero_adcrefcut=-5600.
+pcal_adcrefcut=-5600.
 

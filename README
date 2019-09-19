@@ -1,0 +1,17 @@
+this readme is written by Hamza Atac. If you have anyproblems with replay or need me to change anything please
+contact me at : h.atac@temple.edu
+
+this directory is official replay directory for vcs alphaE experiment.
+hcana is installed on /group/alphaE/analysis_apps/hcana and symbolically linked
+to /group/alphaE/analysis_apps/hallc_replay_vcs/hcana. DBASE and PARAM files are
+in the /group/alphaE/vcs_DB directory. Tostart the full replay for a run,
+./run_full_replay.csh runno process target
+process: vcs, elastic, pi0, pi+LT..."
+target: LH2 or dummy"
+
+For example ./run_full_replay.csh 8882 vcs LH2
+
+The outputs are written to  ROOTfiles in the current directory which is symbolically linked to 
+/volatile/hallc/alphaE/ROOTFiles_vcs.
+
+
