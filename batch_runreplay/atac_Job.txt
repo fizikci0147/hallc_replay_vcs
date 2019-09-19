@@ -1,0 +1,10 @@
+PROJECT:c-alphaE
+TRACK: analysis
+JOBNAME: vcs_alphaE_ 9423 
+DISK_SPACE: 86 GB
+MEMORY: 2500 MB
+OS: centos7
+CPU: 1
+INPUT_FILES: /mss/hallc/alphaE/raw/coin_all_09423.dat
+COMMAND:cd /u/group/alphaE/analysis_apps/hallc_replay_vcs;cp coin_all_09423.dat raw/;cp coin_all_09423.dat cache/;./run_full_replay.csh  9423  vcs LH2
+MAIL: atac@jlab.org
