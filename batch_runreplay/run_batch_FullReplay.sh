@@ -61,7 +61,7 @@ while true; do
                 echo "CPU: 1" >> ${batch} ### hcana single core, setting CPU higher will lower priority!                                                                                                          
 		echo "INPUT_FILES: ${tape_file}" >> ${batch}
 		#echo "TIME: 1" >> ${batch} 
-		echo "COMMAND:cd /u/group/alphaE/analysis_apps/hallc_replay_vcs;cp $raw_file raw/;cp $raw_file cache/;./run_full_replay.csh ${runNum} vcs LH2" >> ${batch}                                                        
+		echo "COMMAND:cd /u/group/alphaE/analysis_apps/hallc_replay_vcs;cp $raw_file raw/;cp $raw_file cache/;./run_full_replay.csh ${runNum} vcs LH2;cp ROOTfiles/coin_replay_production_${runNum}_-1.root /cache/hallc/alphaE/pass0/" >> ${batch}                                                       
 		echo "MAIL: ${USER}@jlab.org" >> ${batch}
                 echo "Submitting batch"
                 eval "jsub ${batch} 2>/dev/null"

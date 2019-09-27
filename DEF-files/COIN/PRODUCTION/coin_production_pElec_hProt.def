@@ -6,6 +6,7 @@ block T.coin.*
 block CTime*ep*
 #block D.*
 block g.evtyp*
+block g.evnum*
 #block P.tr.PruneSelect
 #block H.tr.PruneSelect
 #block P.tr.*
